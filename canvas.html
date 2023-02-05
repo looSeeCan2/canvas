@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="styelsheet" href="./canvas.css"> -->
+    <link rel="stylesheet" href="./canvas.css">
+
+    <title>Canvas</title>
   </head>
   <body>
-    <canvas id="myCanvas" width="300" height="150"></canvas>
-    <script>
-      const canvas = document.getElementById('myCanvas');
-      const ctx = canvas.getContext('2d');
-      ctx.fillStyle = 'blue';
-      ctx.fillRect(10, 10, 280, 130);
-    </script>
+    <div class="container">
+      <canvas id="myCanvas"></canvas>
+      <script type="module" src="app.js"></script>
+    </div>
   </body>
 </html>

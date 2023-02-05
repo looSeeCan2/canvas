@@ -6,4 +6,5 @@
     npm install http-server -g
     added os I can run cmd: npm run dev
       package.json > scripts > "dev": "http-server -p 3000"
+      I cant get it to automatically update when I make changes. I reverted back to using live-server. I will come back to this
     
