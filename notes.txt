@@ -1,0 +1,9 @@
+02/05/2023
+    I could just have this project on live-server, but, I did all this cause I woke up at 5 in the morning messing with  github codespaces
+      I did the quickstart tuttorial and they were using npm run dev for the tutorial. I tried to branch buffaloSoldirs on codespaces and 
+      could not get the live-server to work. So, this is an attempt to get this on codespaces.
+    npm init
+    npm install http-server -g
+    added os I can run cmd: npm run dev
+      package.json > scripts > "dev": "http-server -p 3000"
+    
