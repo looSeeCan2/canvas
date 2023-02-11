@@ -10,3 +10,15 @@
 	ctx.fillRect(10, 10, 280, 130);
 
 })();
+
+(() => { 
+	const prompt = document.querySelector(".prompt");
+	console.log(prompt);
+	prompt.addEventListener("click", (e) => {
+		console.log(e);
+		const valueOfPrompt = window.prompt("Hello, Please introduce yourself:");
+		console.log(valueOfPrompt);
+
+
+	})
+})()
